@@ -27,6 +27,21 @@ https://github.com/ryuichiueda/robosys_device_drivers.git
 ## 回路構成
 ![image](https://github.com/taishiyamamoto/robosys2018/blob/master/7led.png)
 
+# プログラムの使用方法
+* 動作確認
+```
+$ make                          #プログラムのコンパイル
+$ sudo insmod myled.ko          #デバイスドライバのインストール 
+$ sudo chmod 666 /dev/myled0  
+$ echo 0 > /dev/myled0          #0を表示 0~9に対応  
+$ echo c > /dev/myled0          #消灯
+```
+* 削除する場合
+```
+$ sudo rmmod myled
+$ make clean
+```
+
 ## 課題
 * プログラム内部ではレジスタをマジックナンバーで直接叩いているので、編集が困難であるということ。
 * Raspberry Pi 3B+ではGPIOピンに合計50mA以上の電流を出力させると動作の保障がされないため、７セグメントデコーダ等を用いて省電力化する。
