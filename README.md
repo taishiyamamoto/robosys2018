@@ -5,12 +5,23 @@
 
 # 課題1について
 
-ロボットシステム学の講義で用いられたLEDを光らせるプログラムを参考にして、７セグメントLEDを数字を表示するデバイスドライバを作成しました。
+## やったこと
+ロボットシステム学の講義で用いられたLEDを光らせるプログラムを参考にして、７セグメントLEDの数字を表示するデバイスドライバを作成しました。
 
 ## 使用したもの
-* raspberry pi Model 3B+
-* 7セグメントLED
-* 300Ω程度の抵抗
+* Raspberry Pi Model 3B+
+* 7セグメントLED（カソードコモン）
+* 300Ω程度の電流制限抵抗
+
+## ラズパイの環境構築
+* 使用OSはraspbian、イメージファイルはNOOBSのものを使用しました。
+　https://www.raspberrypi.org/downloads/noobs/
+ 
+* 以下のシェルスクリプトを用いてカーネルの再構築を行いました。
+　https://github.com/ryuichiueda/raspberry_pi_kernel_build_scripts.git
 
 ## 参考にしたプログラム
+* ロボットシステム学第８回講義で扱ったLEDをGPIOピンで制御するデバイスドライバを参考にしました。
 https://github.com/ryuichiueda/robosys_device_drivers.git
+
+
