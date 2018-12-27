@@ -26,7 +26,9 @@
 https://github.com/ryuichiueda/robosys_device_drivers.git
 
 ## 回路構成
+* 回路図は以下の画像のようになっています。
 ![image](https://github.com/taishiyamamoto/robosys2018/blob/master/7led.png)
 
-## 今後の課題
-* 
+## 課題
+* プログラム内部ではレジスタをマジックナンバーで直接叩いているので、編集が困難であるということ。
+* Raspberry Pi 3B+ではGPIOピンに合計50mA以上の電流を出力させると動作の保障がされないため、７セグメントデコーダ等を用いて省電力化する。
