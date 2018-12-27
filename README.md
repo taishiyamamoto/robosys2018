@@ -27,7 +27,7 @@ https://github.com/ryuichiueda/robosys_device_drivers.git
 ## 回路構成
 ![image](https://github.com/taishiyamamoto/robosys2018/blob/master/7led.png)
 
-# プログラムの使用方法
+## プログラムの使用方法
 * 動作確認
 ```
 $ make                          #プログラムのコンパイル
