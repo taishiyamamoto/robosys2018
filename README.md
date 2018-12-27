@@ -7,6 +7,7 @@
 
 ## やったこと
 ロボットシステム学の講義で用いられたLEDを光らせるプログラムを参考にして、７セグメントLEDの数字を表示するデバイスドライバを作成しました。
+動画のURL：https://youtu.be/ZYvpynk3qc0
 
 ## 使用したもの
 * Raspberry Pi Model 3B+
