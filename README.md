@@ -15,7 +15,7 @@
 * 300Ω程度の電流制限抵抗
 
 ## ラズパイの環境構築
-* 使用OSはraspbian、イメージファイルはNOOBSのものを使用しました。
+* 使用OSはraspbian、イメージファイルは下記サイトのものを使用しました。
 　https://www.raspberrypi.org/downloads/noobs/
  
 * 以下のシェルスクリプトを用いてカーネルの再構築を行いました。
