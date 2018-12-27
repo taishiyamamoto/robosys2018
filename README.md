@@ -1,4 +1,4 @@
-## robosys2018
+## ロボットシステム課題概要
 
 山本大志
 2018年12月27日　千葉工業大学
@@ -26,7 +26,6 @@
 https://github.com/ryuichiueda/robosys_device_drivers.git
 
 ## 回路構成
-* 回路図は以下の画像のようになっています。
 ![image](https://github.com/taishiyamamoto/robosys2018/blob/master/7led.png)
 
 ## 課題
