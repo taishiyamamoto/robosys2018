@@ -20,9 +20,12 @@
 * 以下のシェルスクリプトを用いてカーネルの再構築を行いました。
 　https://github.com/ryuichiueda/raspberry_pi_kernel_build_scripts.git
 
-## 参考にしたプログラム
+## 参考文献
 * ロボットシステム学第８回講義で扱ったLEDをGPIOピンで制御するデバイスドライバを参考にしました。
-https://github.com/ryuichiueda/robosys_device_drivers.git
+https://github.com/ryuichiueda/robosys_device_drivers.git  
+
+* Raspberry Piのアドレスマップは以下の文献を参考にしました。
+https://www.raspberrypi.org/app/uploads/2012/02/BCM2835-ARM-Peripherals.pdf
 
 ## 回路構成
 ![image](https://github.com/taishiyamamoto/robosys2018/blob/master/7led.png)
